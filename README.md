@@ -25,4 +25,5 @@ F --> H
 D --> I[Editor]
 F --> I
 ```
+![组件树.png](https://i.loli.net/2021/08/12/4owGIMVjQcLbXET.png)
 #### 4. 将一些公共的方法提取到/src/js/common/PublicMethods.js文件下

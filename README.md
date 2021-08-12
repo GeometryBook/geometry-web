@@ -9,6 +9,11 @@
 - 删除原本直接引用到全局的axios默认实例
 #### 3. App.vue代码整理
 - 将原有代码中所有的el-dialog组件全部抽离到src/components/dialog文件夹下
+  - SimpleQueDialog：题目信息
+  - DetailQueDialog：题目详情
+  - OperQueDialog：编辑/新增题目
+  - AnswerDialog：题目解答
+  - AnswerAddDialog：新增题目解答
 - 组件树结构如下：
 ```mermaid
 graph LR

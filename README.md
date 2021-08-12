@@ -12,10 +12,11 @@
 - 组件树结构如下：
 ```mermaid
 graph LR
-A[App] --> B[SimpleQueDialog]
-A --> C[DetailQueDialog]
-A --> D[OperQueDialog]
-A --> E[AnswerDialog]
+A[App] --> J[QueTable]
+J --> B[SimpleQueDialog]
+J --> C[DetailQueDialog]
+J --> D[OperQueDialog]
+J --> E[AnswerDialog]
 E --> F[AnswerAddDialog]
 B --> H[Geometry]
 C --> H
